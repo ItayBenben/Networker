@@ -1,0 +1,10 @@
+// Networker build configuration.
+//
+// BUNDLE_ID_BASE is the app's bundle identifier. The tunnel extension is "<base>.tunnel"
+// and the shared App Group is "group.<base>". Run Scripts/configure.py to change it so the
+// entitlements files stay in sync, or edit those files by hand.
+BUNDLE_ID_BASE = com.example.networker
+
+// Your Apple Developer Team ID (10 characters, shown at https://developer.apple.com/account
+// under Membership Details). Can also be picked in Xcode › Signing & Capabilities.
+DEVELOPMENT_TEAM =
